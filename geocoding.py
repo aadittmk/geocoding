@@ -2,7 +2,7 @@ import googlemaps
 import pandas as pd
 from datetime import datetime
 
-df = pd.read_csv("CSVPath")
+df = pd.read_csv(r"Path\to\CSV.csv")
 
 gmaps = googlemaps.Client(key='Google Maps API Key')
 
